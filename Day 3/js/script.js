@@ -111,7 +111,7 @@ console.log(frogName);
 
 // Double quote or single quote
 // can use a escaping character \ blackslash in
-//front of the apostrophe 
+//front of the apostrophe
 
 var phrase = 'I don\'t know';
 console.log(phrase);
@@ -119,4 +119,47 @@ console.log(phrase);
 // multi-lines by using in - new line character
 var phrase2 = "I don't know! \nYou never know!";
 console.log(phrase2);
+
+// Boolean
+// KIND of light switch - either on or off
+// true or false - NOT "TRUE" OR "FALSE"
+
+var yes = true;
+var nope = false;
+
+// THIS IS NOT A BOOLEAN
+var wrong = "true";
+
+// order of Operations
+// PEMDAS - PLEASE EXCUSE MY DEAR AUNT SALLY
+// Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction
+
+// Find quiz average
+
+var quiz1 =87;
+var quiz2 = 100;
+var quiz3 = 70;
+
+// Average - add them divide how many there are
+var average = (quiz1 + quiz2 + quiz3) /3;
+console.log(average);
+
+//Do Not overuse parenthesis
+// var perimeter = ((length*2) + (width*2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
