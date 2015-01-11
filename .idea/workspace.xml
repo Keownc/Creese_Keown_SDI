@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47c36fbd-104a-4e9f-a8f2-3fbccf9fd542" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3LabExpessions/Creese_Keown_Expressions.html" afterPath="$PROJECT_DIR$/Day3LabExpessions/Creese_Keown_Expressions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3LabExpessions/js/script.js" afterPath="$PROJECT_DIR$/Day3LabExpessions/js/script.js" />
     </list>
     <ignored path="Creese_Keown_SDI.iws" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day3LabExpessions/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41545188" vertical-offset="0" max-vertical-offset="686">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6341108" vertical-offset="30" max-vertical-offset="765">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -204,8 +203,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.script.js">
+    <configuration default="false" name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Day3LabExpessions/js">
+      <RunnerSettings RunnerId="debuggableProgram" />
+      <ConfigurationWrapper RunnerId="debuggableProgram" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
@@ -238,7 +243,14 @@
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.script.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -327,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day3LabExpessions/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41545188" vertical-offset="0" max-vertical-offset="686">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6341108" vertical-offset="30" max-vertical-offset="765">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -19,6 +19,13 @@ var numberOfSlices = slicesOfPizza * pizzaOrdered;
 console.log("The number of pizza slices at the party is "+ numberOfSlices);
 
 
+//Divide numberOfSlices / numberOfPerson
+var numberOfSlicePerPerson = numberOfSlices / numberOfPeople -.2;
+
+//Output number of slices per persons
+console.log("Each person ate "+numberOfSlicePerPerson + " slices of pizza at the party.");
+
+
 
 
 
