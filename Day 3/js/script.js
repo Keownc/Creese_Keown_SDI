@@ -74,7 +74,8 @@ console.log(evenOrOdd);
  += (number) addition Assignment
 -= (number) subtracts Assignments
 /= (number) Dividition assignment
-*= (num) multimat
+*= (num) multiplication Assignment
+
  */
 
 var counter = 1 ;
@@ -95,3 +96,27 @@ console.log(counter);
 
 counter *=4; //counter same as counter *4
 console.log(counter);
+
+//String is any text variable
+// " is used at the beginning and end of the string"
+//Used to distinguish between variables name and random text
+//single 'quotes' double quotes are used,
+//But must match
+
+var kermit = "light green";
+
+var frogName = "kermit";
+
+console.log(frogName);
+
+// Double quote or single quote
+// can use a escaping character \ blackslash in
+//front of the apostrophe 
+
+var phrase = 'I don\'t know';
+console.log(phrase);
+
+// multi-lines by using in - new line character
+var phrase2 = "I don't know! \nYou never know!";
+console.log(phrase2);
+
