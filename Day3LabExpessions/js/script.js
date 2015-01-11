@@ -25,6 +25,23 @@ var numberOfSlicePerPerson = numberOfSlices / numberOfPeople -.2;
 //Output number of slices per persons
 console.log("Each person ate "+numberOfSlicePerPerson + " slices of pizza at the party.");
 
+//The number of slices sparky gets to eat
+var sparkyShares = numberOfSlices % numberOfPeople;
+
+//Output Number of slices Sparky gets to eat
+console.log("Sparky got "+sparkyShares + " slices of pizza");
+
+//calculate your average weekly grocery shopping spending over the past five weeks
+var week1 = 20;
+var week2 = 40;
+var week3 = 30;
+var week4 = 50;
+var week5 = 20;
+var total = week1 + week2 + week3 + week4 + week5;
+var average = total /5;
+
+//Output Answer
+console.log("You have spent a total of $"+total + " on groceries over 5 weeks. That is an average of $"+average + "per week");
 
 
 
