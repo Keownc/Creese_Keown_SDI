@@ -147,6 +147,38 @@ console.log(average);
 //Do Not overuse parenthesis
 // var perimeter = ((length*2) + (width*2));
 
+// Concatenation - combining text strings
+// use the + plus sign for text and not just numbers
+
+var firstName ="kermit";
+var lastName = "The Fog";
+
+//Concatenate the first and last name in to a full name
+var fullName = firstName +" "+ lastName;
+console.log(fullName);
+
+console.log(fullName +" is not my favorite muppet");
+
+
+var d = "6";
+var e = "7";
+
+var combine = d+e;
+console.log(combine);
+
+// Constant values are always UPPERCASE
+var PI =3.14;
+
+//Round to decimal place
+// toFixed(#) - # is how the decimal places what we want
+
+var num = 5.67345345;
+num = num.toFixed(2);
+console.log(num);
+
+
+
+
 
 
 
