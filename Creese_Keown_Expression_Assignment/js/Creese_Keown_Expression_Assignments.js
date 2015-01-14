@@ -28,7 +28,7 @@ Expression Assignment
  totalAvgCost = totalFinCost.toFixed(2);
 
  //Print the cost
- console.log("The total amount spent on "+gear+ " is $"+totalFinCost+" after the iphone6 was given at half price \n and 15% taxes has been add to the bill.");
+ console.log("The total amount spent on "+gear+ " is $"+totalFinCost+" after the iphone6 was given at half price \n and 15% taxes has been added to the bill.");
 
 //I enter 200 for the iphone6, 60 for the memory card, 35 for the iphone cast and received an answer of $224.25.;
  //I enter 320 for the iphone6,  120 for the memory card, 60 for the iphone cast and received an answer of $391.;
