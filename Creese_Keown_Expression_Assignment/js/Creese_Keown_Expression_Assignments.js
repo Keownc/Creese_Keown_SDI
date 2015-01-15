@@ -22,6 +22,7 @@ Expression Assignment
  // iphone is given at half price
  // Tax is to be added
  iphone6 /=2;
+
  var totalCost= iphone6 += memoryCard += iphoneCase;
  var totalFinCost = totalCost + (totalCost*=15/100);
 
