@@ -13,17 +13,17 @@ Expression Assignment
  var gear = ["iphone6", " Memory Card", "and iphone Case"];
 
  // Add a prompt to ask the user to enter their given value
- var iphone6 = parseInt(prompt("To calculate the cost of a half priced gear.\nWhat is the price of a iphone6.\nPlease do not add dollar sign."));
- var memoryCard = parseInt(prompt("To calculate the cost of a half priced gear\nWhat is the price of a Memory Card.\nPlease do not add dollar sign."));
- var iphoneCase = parseInt(prompt("To calculate the cost of a half priced gear.\nWhat is the price of a iphone case.\nPlease do not add dollar sign."));
-
+ var iphone6 = parseInt(prompt("To calculate the cost of a half priced "+gear[0]+".\nWhat is the price of a iphone6.\nPlease do not add dollar sign."));
+ var memoryCard = parseInt(prompt("To calculate the cost of a half priced "+gear[1]+"\nWhat is the price of a Memory Card.\nPlease do not add dollar sign."));
+ var iphoneCase = parseInt(prompt("To calculate the cost of a half priced "+gear[2]+".\nWhat is the price of a iphone case.\nPlease do not add dollar sign."));
+ var payCheck = Number=(prompt("To calculate the Change form of a half priced after"));
 
  //Created the the average cost
  // iphone is given at half price
  // Tax is to be added
  iphone6 /=2;
 
- var totalCost= iphone6 += memoryCard += iphoneCase;
+ var totalCost= iphone6 + memoryCard + iphoneCase;
  var totalFinCost = totalCost + (totalCost*=15/100);
 
  //Rounded off to two decimal places
