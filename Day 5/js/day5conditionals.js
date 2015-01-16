@@ -31,3 +31,20 @@ Conditionals
  }
 
  console.log("What comes after the if statement.");
+
+ //Relational Expressions
+
+ // If the Kid is over 48" tall, then he can ride.
+
+ var kidHeight=30;
+
+ //Created variable for minimum height
+ var mimHeight = 48;
+
+  if(kidHeight > mimHeight){
+   console.log("You are tall enough to ride.");
+  } else{
+   // THIS CODE WILL RUN THE TEST IS FALSE
+   console.log("Sorry you are too short.")
+  }
+
