@@ -47,3 +47,21 @@ Conditional Worksheet
   console.log("Password does not match our records.");
 
  }
+ //password===correctPassword)&&wrongUserName
+ //(username===correctUserName)&&(password===correctPassword)
+
+ //Multiple Conditions
+ var age=prompt("What is your age?");
+ var time=prompt("What time is the movie?");
+
+ var price=12;
+ var discountPrice=7;
+ 
+
+ if(age<10||age>=55){
+  console.log("The ticket price is $"+discountPrice)
+ }else if(3<time&&5>time){
+  console.log("The ticket price is $"+discountPrice)
+ }else{
+  console.log("The ticket price is $"+price)
+ }
