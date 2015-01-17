@@ -22,4 +22,9 @@ Conditional Worksheet
  var gas = gallons*(percent/100);
  var distance= mpg*gas;
 
+ if(distance>destination){
+  console.log("Yes, you can make it without stopping for gas!");
+ }else{
+  console.log("You only have "+gas+"gallons of gas in your tank, better get gas now while you can!");
+ }
 

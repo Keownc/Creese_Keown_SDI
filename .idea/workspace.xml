@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="47c36fbd-104a-4e9f-a8f2-3fbccf9fd542" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Creese_Keown_Condition_Worksheet/js/Creese_Keown_Condition_Worksheet.js" afterPath="$PROJECT_DIR$/Creese_Keown_Condition_Worksheet/js/Creese_Keown_Condition_Worksheet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 5/js/day5logicaloperators.js" afterPath="$PROJECT_DIR$/Day 5/js/day5logicaloperators.js" />
     </list>
     <ignored path="Creese_Keown_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="Creese_Keown_Condition_Worksheet.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Creese_Keown_Condition_Worksheet/js/Creese_Keown_Condition_Worksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="650">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6923077" vertical-offset="0" max-vertical-offset="650">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -486,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Creese_Keown_Condition_Worksheet/js/Creese_Keown_Condition_Worksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5769231" vertical-offset="0" max-vertical-offset="650">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6923077" vertical-offset="0" max-vertical-offset="650">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
