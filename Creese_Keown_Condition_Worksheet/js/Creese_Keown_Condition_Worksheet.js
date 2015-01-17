@@ -28,3 +28,22 @@ Conditional Worksheet
   console.log("You only have "+gas+"gallons of gas in your tank, better get gas now while you can!");
  }
 
+ //Multiple Results
+ var username=prompt("What is your username?");
+ var password=prompt("What is your password?");
+ var correctUserName = "keown";
+ var correctPassword = "creese";
+
+
+ if((username===correctUserName)&&(password===correctPassword)){
+  console.log("Welcome, "+correctUserName);
+
+ } else if(password===correctPassword||(username===correctUserName&&password===correctPassword)){
+  console.log("User not found. Try again.");
+
+  //Password does not match our records.” -if the username matches but the password does not
+ }else{
+
+  console.log("Password does not match our records.");
+
+ }
