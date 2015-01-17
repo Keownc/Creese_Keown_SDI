@@ -9,19 +9,17 @@ Conditional Worksheet
 //alert("Testing to see if this is working")
 
 
- //
- var travel=["Mpg","Percent","Gas","Destination"];
-var distance=parseInt("What is ");
-var mpg=parseInt("What is your"+travel[0]+"?");
- var percent=parseInt("What is your current"+travel[1]+"?");
- var gallons=parseInt("How much"+travel[2]+"can you car take!");
+ //Expressions with Conditionals
 
- var transportation = mpg/gallons;
- var gasStation =200;
- var tank= percent/100;
+ var mpg=parseInt(prompt("What is your mpg?"));
+ var percent=parseInt(prompt("What is your current percent of gas"));
+ var gallons=parseInt(prompt("How much gallon can you car take!"));
 
- if(tank*transportation>gasStation){
-console.log("Yes, you can make it without stopping for gas!");
- }else{
-  console.log("You only have"+ +"gallons of gas in your tank, better get gas now while you can!");
- }
+  var destination=200;
+
+ //mpg= distance/gallons
+
+ var gas = gallons*(percent/100);
+ var distance= mpg*gas;
+
+
