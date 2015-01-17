@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47c36fbd-104a-4e9f-a8f2-3fbccf9fd542" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Creese_Keown_Condition_Worksheet/js/Creese_Keown_Condition_Worksheet.js" afterPath="$PROJECT_DIR$/Creese_Keown_Condition_Worksheet/js/Creese_Keown_Condition_Worksheet.js" />
-    </list>
+    <list default="true" id="47c36fbd-104a-4e9f-a8f2-3fbccf9fd542" name="Default" comment="" />
     <ignored path="Creese_Keown_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
