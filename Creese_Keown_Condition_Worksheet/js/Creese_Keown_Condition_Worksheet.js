@@ -56,7 +56,7 @@ Conditional Worksheet
 
  var price=12;
  var discountPrice=7;
- 
+
 
  if(age<10||age>=55){
   console.log("The ticket price is $"+discountPrice)
