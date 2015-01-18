@@ -27,7 +27,9 @@ Expression Assignment
 String(+"("+tax+")");
 
  var totalCost= iphone6 + memoryCard + iphoneCase;
- var totalFinCost = totalCost + (totalCost*=15/100);
+ var discount=totalCost*=15;
+ var discount2=discount/=100;
+ var totalFinCost = totalCost + discount2;
 
  //Rounded off to two decimal places
  totalAvgCost = totalFinCost.toFixed(2);
