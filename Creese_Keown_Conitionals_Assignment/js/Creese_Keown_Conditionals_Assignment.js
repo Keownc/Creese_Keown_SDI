@@ -42,9 +42,41 @@ var age=parseInt(prompt("What is your age?"));
 var check;
 var persons;
 
+var total;
+var totalPerson=persons*25
+
+//calculator for the trip to Maimi
+var cost=250;
+var discount1=cost1*=10;
+var totalDiscount=dicount/=100;
+var totalCost=cost-totalDiscount;
+var totalCost1=totalCost+totalPerson;
+
+//Calculator for the trip to New York
+var cost1=450;
+var discount=cost*=10;
+var totalDiscount1=discount1/=100;
+var totalCost2=cost1-totalDiscount1;
+var totalCost3=totalCost2+totalPerson;
+
+var change;
+
+
+
+
 if (age>=19) {
-    check=parseInt(prompt("How much are you willing to spent?"));
     
+    check=parseInt(prompt("How much are you willing to spent?"));
+    if (check>450) {
+        console.log("Your Travel plan is for New York.");
+        persons=parseInt(prompt("Please enter the amount of people traveling on this trip."));
+        
+    } else if (250<=check&&check<=450) {
+        console.log("Your Travel plan is set for Maimi");
+        persons=parseInt(prompt("Please enter the amount of people traveling on this trip."));
+    }else {
+        console.log("Sorry you donot have sufficient funds to go on a trip.")
+    }
     
 } else if (age>=1) {
     console.log("You are not old enough to pass this point.")
