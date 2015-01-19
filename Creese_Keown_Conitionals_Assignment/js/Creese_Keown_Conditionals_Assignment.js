@@ -41,6 +41,8 @@
 var age=parseInt(prompt("What is your age?"));
 var check;
 var persons;
+
+//To calculate the number of persons going on this trip.
 var number;
 
 //calculator for the trip to Miami
@@ -48,14 +50,15 @@ var costC=200;
 var costD; 
 var totalCost;
 var discount;
-//Calculator for the trip to New York
+
+//variable to calculator for the trip to New York
 var costA=400;
 var costB;
 var totalCost1;
 var discount1;
 
 
-//Calculator for change
+//variable to calculator for change
 var change;
 var change1; 
 var change2;
@@ -63,50 +66,50 @@ var change3;
 var change4; 
 
 
-
+// An if, else if, else statement for the age limit to travel
 if (age>=19) {
-    
+
+    // A prompt if you pass the age test
     check=parseInt(prompt("How much are you willing to spent?"));
+    // An if, else if, else statement for the amount of funds required to go on this trip
     if (check>450) {
-        console.log("Your Travel plan is for New York.");
-        
+        //Another prompt if your check is more than $450
         persons=parseInt(prompt("Please enter the amount of people traveling on this trip."));
-        
+        //Calculator for change set to New york
         number= persons *=15;
         costB= costA + number;
-        costB2=costB
+        costB2=costB;
         discount1=costB *=10;
         discount1/=100;
-        totalCost1= costA - discount1;
+        totalCost1= costB2 - discount1;
         
         change1= check - totalCost1;
         change2= check - costB2;
         change1.toFixed(2);
         change2.toFixed(2);
-        
-        change=(age>=35)?"The total cost for this trip is $"+totalCost1+" and your change is $"+change1+".":"The total cost for this trip is $"+costB2+" and your change is $"+change2+".";
-        console.log(change);
+        //A ternary to print the change.
+        change=(age>=35&&persons>=1)?"The total cost for this trip is $"+totalCost1+" and your change is set for $"+change1+".":(persons<=0)?"The total cost for this trip is $"+costB2+" and your change is set for $"+change2+".":"You did not enter the number of person going on this trip.\nPlease try again.";;
+        console.log("Your Travel plan is for New York.\n"+change);
         
     } else if (250<=check&&check<=450) {
-        console.log("Your Travel plan is set for Miami.");
-        
+        //Another prompt if your check is more than $250 but less than or equal to $450
         persons=parseInt(prompt("Please enter the amount of people traveling on this trip."));
-        
-        number= persons *=15; 
-        costD= costC + number;
+       //Calculator for change set to Miami
+        number1= persons *=15; 
+        costD= costC + number1;
         costD2=costD;
         discount=costD *=10;
         discount/=100;
-        totalCost= costC - discount;
+        totalCost= costD2 - discount;
         
         change3= check - totalCost;
         change4= check - costD2;
         change3.toFixed(2);
         change4.toFixed(2);
-        
-        change=(age>=35)?"The total cost for this trip is $"+totalCost+" and your change is $"+change3+".":"The total cost for this trip is $"+costD2+" and your change is $"+change4+".";
-        console.log(change);
-        
+        //A ternary to print the change.
+        change=(age>=35&&persons>=1)?"The total cost for this trip is $"+totalCost+" and your change is set for $"+change3+".":(persons<=0)?"The total cost for this trip is $"+costD2+" and your change is set for $"+change4+".":"You did not enter the number of person going on this trip.\nPlease try again.";
+        console.log("Your Travel plan is set for Miami.\n"+change);
+
     }else {
         console.log("Sorry you do not have sufficient funds to go on a trip.")
     }
@@ -118,16 +121,16 @@ if (age>=19) {
 }
 
 
-// console.log("Your final destination is Maimi. The cost for this trip is $250 and your change is $"+total1);
-//console.log("You do not have enough fund for this trip!");
-//parseInt(prompt("Your destination is New york!\nEnter your check amount!"));
+//I entered 23 and was prompted to enter check where i entered 400 and was prompted to persons entered 3 and got a result of $245 total cost and change $155.
+//I entered 23 and was prompted to enter check where i entered 900 and was prompted to persons entered 2 and got a result of $430 total cost and change $470.
+//I entered 37 and was prompted to enter check where i entered 320 and was prompted to persons entered 2 and got a result of $207 total cost and change $113.
+//I entered 36 and was prompted to enter check where i entered 780 and was prompted to persons entered 4 and got a result of $414 total cost and change $366.
+//I entered 46 and was prompted to enter check where i entered 500 and was prompted to persons entered 6 and got a result of $441 total cost and change $56.
 
-    
+//I entered 36 and was prompted to enter check where i entered 600 and was prompted to persons entered nothing and receive a note of you did not enter number of persons.
+//I entered 36 and was prompted to enter check where i entered 450 and was prompted to persons entered nothing and receive a note of you did not enter number of persons.
+//I entered 23 and was prompted to enter check where i entered 300 and was prompted to persons entered nothing and receive a note of you did not enter number of persons.
+//I entered 20 for age, nothing for check, received a note you do not have sufficient funds.
 
-
-//var age=parent(prompt("To Find a destination.\nHow much are you willing to spent","400"));
-//var check;
-
-//var total1= check-
-
-
+//I entered 18 and received a note you are not old enough to pass this point.
+//I entered nothing for age and received a note you did nit enter age.
