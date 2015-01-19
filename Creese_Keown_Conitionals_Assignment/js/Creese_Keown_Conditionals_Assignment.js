@@ -45,17 +45,18 @@ var persons;
 //To calculate the number of persons going on this trip.
 var number;
 
-//calculator for the trip to Miami
-var costC=200;
-var costD; 
-var totalCost;
-var discount;
 
 //variable to calculator for the trip to New York
 var costA=400;
 var costB;
 var totalCost1;
 var discount1;
+
+//calculator for the trip to Miami
+var costC=200;
+var costD; 
+var totalCost;
+var discount;
 
 
 //variable to calculator for change
@@ -88,7 +89,7 @@ if (age>=19) {
         change1.toFixed(2);
         change2.toFixed(2);
         //A ternary to print the change.
-        change=(age>=35&&persons>=1)?"The total cost for this trip is $"+totalCost1+" and your change is set for $"+change1+".":(persons<=0)?"The total cost for this trip is $"+costB2+" and your change is set for $"+change2+".":"You did not enter the number of person going on this trip.\nPlease try again.";;
+        change=(age>=35&&persons>=1)?"The total cost for this trip is $"+totalCost1+" and your change is set for $"+change1+".":(persons>=1)?"The total cost for this trip is $"+costB2+" and your change is set for $"+change2+".":"You did not enter the number of person going on this trip.\nPlease try again.";;
         console.log("Your Travel plan is for New York.\n"+change);
         
     } else if (250<=check&&check<=450) {
@@ -107,7 +108,7 @@ if (age>=19) {
         change3.toFixed(2);
         change4.toFixed(2);
         //A ternary to print the change.
-        change=(age>=35&&persons>=1)?"The total cost for this trip is $"+totalCost+" and your change is set for $"+change3+".":(persons<=0)?"The total cost for this trip is $"+costD2+" and your change is set for $"+change4+".":"You did not enter the number of person going on this trip.\nPlease try again.";
+        change=(age>=35&&persons>=1)?"The total cost for this trip is $"+totalCost+" and your change is set for $"+change3+".":(persons>=1)?"The total cost for this trip is $"+costD2+" and your change is set for $"+change4+".":"You did not enter the number of person going on this trip.\nPlease try again.";
         console.log("Your Travel plan is set for Miami.\n"+change);
 
     }else {
