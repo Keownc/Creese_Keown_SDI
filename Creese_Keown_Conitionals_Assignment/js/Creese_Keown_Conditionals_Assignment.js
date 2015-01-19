@@ -2,7 +2,7 @@
  *Keown Creese
  *SDI
  *1/17/15
- *Condiitional Assignment
+ *Conditional Assignment
  *Day 6
  */
 
@@ -41,32 +41,26 @@
 var age=parseInt(prompt("What is your age?"));
 var check;
 var persons;
+var number;
 
-
-var totalPersons=persons*25
-
-//calculator for the trip to Maimi
-var cost=250;
-var cost1=cost+totalPersons;
-var discount1=cost1*=10;
-var totalDiscount=dicount/=100;
-var totalCost=cost-totalDiscount;
-var totalCost1=totalCost+totalPersons;
-
+//calculator for the trip to Miami
+var costC=200;
+var costD; 
+var totalCost;
+var discount;
 //Calculator for the trip to New York
-var cost2=450;
-var cost3=cost2+totalPersons;
-var discount=cost*=10;
-var totalDiscount1=discount1/=100;
-var totalCost2=cost1-totalDiscount1;
-var totalCost3=totalCost2+totalPersons;
+var costA=400;
+var costB;
+var totalCost1;
+var discount1;
+
 
 //Calculator for change
 var change;
-var change1=check-totalCost3;
-var change2=check-cost3;
-var change3=check-totalCost1;
-var change4=check-cost1;
+var change1; 
+var change2;
+var change3; 
+var change4; 
 
 
 
@@ -78,19 +72,43 @@ if (age>=19) {
         
         persons=parseInt(prompt("Please enter the amount of people traveling on this trip."));
         
-        change=(age=>35)?"The total cost for this trip is $"+totalCost3+"and your change is $"+change1+".":"The total cost for this trip is $"+Cost3+"and your change is $"+change2+".";
+        number= persons *=15;
+        costB= costA + number;
+        costB2=costB
+        discount1=costB *=10;
+        discount1/=100;
+        totalCost1= costA - discount1;
+        
+        change1= check - totalCost1;
+        change2= check - costB2;
+        change1.toFixed(2);
+        change2.toFixed(2);
+        
+        change=(age>=35)?"The total cost for this trip is $"+totalCost1+" and your change is $"+change1+".":"The total cost for this trip is $"+costB2+" and your change is $"+change2+".";
         console.log(change);
         
     } else if (250<=check&&check<=450) {
-        console.log("Your Travel plan is set for Maimi");
+        console.log("Your Travel plan is set for Miami.");
         
         persons=parseInt(prompt("Please enter the amount of people traveling on this trip."));
         
-        change=(age=>35)?"The total cost for this trip is $"+totalCost1+"and your change is $"+change3+".":"The total cost for this trip is $"+Cost1+"and your change is $"+change4+".";
+        number= persons *=15; 
+        costD= costC + number;
+        costD2=costD;
+        discount=costD *=10;
+        discount/=100;
+        totalCost= costC - discount;
+        
+        change3= check - totalCost;
+        change4= check - costD2;
+        change3.toFixed(2);
+        change4.toFixed(2);
+        
+        change=(age>=35)?"The total cost for this trip is $"+totalCost+" and your change is $"+change3+".":"The total cost for this trip is $"+costD2+" and your change is $"+change4+".";
         console.log(change);
         
     }else {
-        console.log("Sorry you donot have sufficient funds to go on a trip.")
+        console.log("Sorry you do not have sufficient funds to go on a trip.")
     }
     
 } else if (age>=1) {
@@ -99,7 +117,6 @@ if (age>=19) {
       console.log("You did not enter your age.")
 }
 
-   
 
 // console.log("Your final destination is Maimi. The cost for this trip is $250 and your change is $"+total1);
 //console.log("You do not have enough fund for this trip!");
