@@ -43,7 +43,7 @@ while(numZombies<=1000000){
     var newZombies=numZombies*numBites;
     
     //how many zombies we have
-    nunmZombies+=newZombies;
+    numZombies+=newZombies;
     
     //add 1 to the total number of day it takes
     daysTake++;
@@ -52,7 +52,7 @@ while(numZombies<=1000000){
     
 }
 
-console.log("It takes"+daysTake+"to reach 1 million zombies.")
+console.log("It takes"+daysTake+" to reach 1 million zombies.")
 
 
 
