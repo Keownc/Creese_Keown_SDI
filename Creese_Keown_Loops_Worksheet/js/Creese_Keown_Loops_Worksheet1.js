@@ -13,25 +13,20 @@
 
 
 
-//var persons=prompt(Enter number of persons in the class room:)
+var question=prompt("Is july 4th is independence day?");
 
 
- var takeoff=prompt("Count down for a rocket to lanuch! ")
- 
- var count=0
- 
- while (isNaN(takeoff)||takeoff==="") {
-    
-    takeoff=prompt("Please enter a Number")
-    
- }if (count===0) {
-    console.log("Lift off")
-    
- }else if (count<=10) {
-    takeoff=prompt("Please enter the next value")
-    console.log("Take off in "+takeoff)
-   count++
- }
-    
-   
 
+do {
+    console.log("The answers is "+question);
+    
+    question=prompt("Is july 4th is independence day?");
+
+}while (question!="true"&&question!="false"){
+        if (question==="true") {
+            console.log("Your answer is correct.");
+        }else{
+            console.log("Your answer is wrong.")
+        }
+        
+}
