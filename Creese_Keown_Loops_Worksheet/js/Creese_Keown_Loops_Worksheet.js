@@ -10,7 +10,7 @@
 //alert("testing to see if this is connected")
 
 
-//Count down to rocket launch
+//Question
 
 var number=prompt("What is 100-67?");
 
@@ -18,4 +18,8 @@ var number=prompt("What is 100-67?");
 while (number!=33) {
     
     number = prompt("Please enter the correct answer:");
+    if (number===33) {
+        console.log("Your answer is correct")
+    }
 }
+
