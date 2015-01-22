@@ -13,15 +13,15 @@
 
 
 
-var question=prompt("Is july 4th is independence day?");
+
 
 
 
 do {
-    console.log("The answers is "+question);
-    
     question=prompt("Is july 4th is independence day?");
 
+    console.log("You answered "+question);
+    
 }while (question!="true"&&question!="false"){
         if (question==="true") {
             console.log("Your answer is correct.");
