@@ -43,8 +43,38 @@ for (var j=0; j<bills.length; j++) {
     }
     
     
-    
-    
 }
 
 console.log("The total of the bills is $"+totalbills)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
