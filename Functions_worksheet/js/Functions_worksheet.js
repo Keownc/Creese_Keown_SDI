@@ -32,6 +32,7 @@ while(isNaN(userInput)||userInput===""){
 //Return to catch the return
 var results=circleCum(userInput);
 
+//print answer
 console.log("The circumference of the circle is "+results.toFixed(2));
 
 
@@ -40,16 +41,22 @@ console.log("The circumference of the circle is "+results.toFixed(2));
 function beeStung(weight) {
     
     //calculate for bee stings
-    var kills=8.666666667*weight
+    var stings=8.666666667*weight
     
+    //Return number of Bee stings
+    return stings;
 }
 
 //prompt for the user to input their weight
-var stungs=parseInt(prompt("To calculate how much bee sting it will take to kill an aniaml.\nPlease enter weight:"));
+var userStings=parseInt(prompt("To calculate how much bee sting it will take to kill an aniaml.\nPlease enter weight:"));
 
 //validation to see if the user enter a number
-while(isNaN(stungs)||stungs===""){
-    stungs=parseInt(prompt("Please only use numbers.\nPlease enter weight:"));
+while(isNaN(userStings)||userStings===""){
+    userStings=parseInt(prompt("Please only use numbers.\nPlease enter weight:"));
 }
 
-//
+//Return to catch
+var stungs=beeStung(userStings);
+
+//print answer
+console.log("It takes "+stings+"bee stings to kill a "+animal)
