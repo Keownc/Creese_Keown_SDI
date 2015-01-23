@@ -19,7 +19,7 @@ function circleCum(radius) {
     return circumference;
 }
 
-//prompt for the using to input the radius
+//prompt for the user to input the radius
 var userInput=parseInt(prompt("To calculate the circumference of a circle.\n Please enter the radius:"));
 
 //validation to see if the user enter a number
@@ -44,6 +44,12 @@ function beeStung(weight) {
     
 }
 
+//prompt for the user to input their weight
+var stungs=parseInt(prompt("To calculate how much bee sting it will take to kill an aniaml.\nPlease enter weight:"));
 
+//validation to see if the user enter a number
+while(isNaN(stungs)||stungs===""){
+    stungs=parseInt(prompt("Please only use numbers.\nPlease enter weight:"));
+}
 
-
+//
