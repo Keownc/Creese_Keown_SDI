@@ -47,6 +47,14 @@ function beeStung(weight) {
     return stings;
 }
 
+//prompt for animal
+var animal=prompt("o calculate how much bee sting it will take to kill an aniaml.\nWhat animal was stung:")
+
+//while loop to check for a Text
+while (animal===""){
+    animal=prompt("PLease dont leave this blank.\nWhat animal was stung");
+}
+
 //prompt for the user to input their weight
 var userStings=parseInt(prompt("To calculate how much bee sting it will take to kill an aniaml.\nPlease enter weight:"));
 
@@ -54,6 +62,8 @@ var userStings=parseInt(prompt("To calculate how much bee sting it will take to 
 while(isNaN(userStings)||userStings===""){
     userStings=parseInt(prompt("Please only use numbers.\nPlease enter weight:"));
 }
+
+
 
 //Return to catch
 var stungs=beeStung(userStings);
