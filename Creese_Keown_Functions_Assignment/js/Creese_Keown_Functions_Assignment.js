@@ -10,20 +10,20 @@
 
 //To calculate the cost spent to go to a theme park
 
-function themePark(g,t,s) {
+function themePark(gas,ticket,snacks) {
 
     //calculator
-    var total=g+t+s;
+    var total=gas+ticket+snacks;
     //return total
     return total;
 
 }
 
 // Anonymous Function to calculate addition cost
-var extras=function (m,s){
+var extras=function (movie,souvenir){
         
         //calculator for additional cost spent at the theme park
-        var total=m+s;
+        var total=movie+souvenir;
         
         //return  for both total and total2;
         return total;
