@@ -105,6 +105,19 @@ while (isNaN(souvenir)||souvenir===""){
 
 
 
+//Function call to themepark function
+var results1=themePark(gas,ticket,snacks);
+
+//Function call to anonymous extra
+var results2=themePark(gas,ticket,snacks)+extras(movie,souvenir);
+
+//calculator for total cost 
+var grandTotal=results1+results2;
+
+//print output
+console.log("The total cost spent to go to a themepark is $"+results1+"\nand you spent the following addition cost to watch movie \nand bought souvenir at the park giving you a grand total of $"+grandTotal);
+
+
 
 
 
