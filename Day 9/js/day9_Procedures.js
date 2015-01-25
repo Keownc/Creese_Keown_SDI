@@ -15,7 +15,7 @@ function calcArea(width, height) {
 
 //function call
 var results=calcArea(4,5);
-console.log(result);
+console.log(results);
 
 //This is a procedure
 //It does not return a value
@@ -31,3 +31,7 @@ function calcAreaP(width, height) {
 
 //function call for procedure
 calcAreaP(6,7);
+
+alert("Test"); //procedures
+var userInput=prompt("ask a questions");
+//prompting is function
