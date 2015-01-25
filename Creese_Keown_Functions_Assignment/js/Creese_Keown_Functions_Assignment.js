@@ -74,6 +74,37 @@ while (isNaN(snacks)||snacks===""){
     }
 }
 
+//Prompt for the cost spent to watch in movie in the park
+var movie=prompt("What is the cost spent to watch a movie at the park.");
+
+//validation for cost spent on the movie
+while (isNaN(movie)||movie===""){
+    //An if else statement to see if the user left blank or enter words
+    if (isNaN(movie)) {
+    movie=prompt("Please only enter numbers.\nWhat is the cost to watch a movie:");
+    
+    }else{
+        movie=prompt("Please do not leave blank.\nWhat is the cost to watch a movie:");
+    }
+}
+
+//Prompt for the cost spent to watch in movie in the park
+var souvenir=prompt("What is the cost spent to watch a movie at the park.");
+
+//validation for cost spent on the movie
+while (isNaN(souvenir)||souvenir===""){
+    //An if else statement to see if the user left blank or enter words
+    if (isNaN(souvenir)) {
+    souvenir=prompt("Please only enter numbers.\How much money was spent on souvenir:");
+    
+    }else{
+        souvenir=prompt("Please do not leave blank.\nHow much money was spent on souvenir:");
+    }
+}
+
+
+
+
 
 
 
