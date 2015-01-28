@@ -34,10 +34,10 @@ console.log(b);
 console.log(a);
 
 //Find our age
-var YearOfBirth=1992;
+var YearOfBirth=prompt("What year where you born?");
 
 //age is calculated by current year minus year born
-var currentYear=2015;
+var currentYear=prompt("What is the current year?");
 
 var age = currentYear - YearOfBirth;
 console.log(age);
@@ -141,7 +141,8 @@ var quiz2 = 100;
 var quiz3 = 70;
 
 // Average - add them divide how many there are
-var average = (quiz1 + quiz2 + quiz3) /3;
+var average = quiz1 + quiz2 + quiz3;
+average/=3;
 console.log(average);
 
 //Do Not overuse parenthesis
