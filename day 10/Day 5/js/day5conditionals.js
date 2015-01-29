@@ -61,7 +61,11 @@ Conditionals
  //if 40+ 40+ then Buzz Lightyear Ride
  // Anything short - Winnie the Pooh
 
- var childHeight = 50;
+ var childHeight =prompt("What is your height?");
+ 
+ while (isNaN(childHeight)||childHeight==="") {
+   childHeight=prompt("Please don't leave blank and only use numbers.\nWhat is your height:")
+ }
 
  if(childHeight>=48) {
 

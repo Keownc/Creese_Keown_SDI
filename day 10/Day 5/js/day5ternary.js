@@ -13,7 +13,10 @@ Ternary
  // (condition yo test) ? true code: false code;
 
  // normal if else statement
- var gpa=3.8;
+ var gpa=prompt("What is your gpa score?");
+ while (isNaN(gpa)||gpa===""){
+    gpa=prompt("please only use numbers and don't leave blank.\nWhat is your gpa sroce:");
+ }
 
  if(gpa>2){
   console.log("Congrats! You can graduate");
@@ -27,7 +30,10 @@ Ternary
 
 
  // Decide what book a kid will read
- var age=6;
+ var age=prompt("What is your age");
+  while (isNaN(age)||age===""){
+    age=prompt("please only use numbers and don't leave blank.\nWhat is your age:");
+ }
  var book;
 
  // if the child is under 10 - they read Green Eggs and Ham
