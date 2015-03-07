@@ -41,8 +41,8 @@ console.log("After call "+width)
 
 
 //This will not
-//Can not work becuase a variable declared inside of function from your main code.
-console.log("Afte call the perimeter is "+perimeter)
+//Can not work because a variable declared inside of function from your main code.
+console.log("After call the perimeter is "+perimeter);
 
 
 

@@ -23,7 +23,7 @@ avengersNames[2]="Spider-Man";
 console.log(avengersNames);
 
 //add a team member
-avengersNames[3]="Black Widow"
+avengersNames[3]="Black Widow";
 
 //print it out
 console.log(avengersNames);

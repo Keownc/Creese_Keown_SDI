@@ -39,7 +39,7 @@ var results=totalCost(cost,discount);
 console.log("The Final cost of an item that cost $"+cost+" with a discount of "+discount+"% is $"+results);
 
 
-//tested orignal cost 50 discount 20 and got 40
-//tested orignal cost 30 discount 40 and got 18
+//tested original cost 50 discount 20 and got 40
+//tested original cost 30 discount 40 and got 18
 
 
